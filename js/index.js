@@ -15,7 +15,16 @@ $('.colors a').on("click",function(e) {
   e.preventDefault();
   var attr = $(this).attr("title");
   console.log(attr);
-  $('head').append('<link rel="stylesheet" href="css/'+attr+'.css">');
+  var colorLink = $("#theme-color");
+  if(colorLink.length){
+    colorLink.attr('href', 'css/' + attr + '.css');
+  } else {
+    $('<link>', {
+      id: 'theme-color',
+      rel: 'stylesheet',
+      href: 'css/' + attr + '.css'
+    }).appendTo('head');
+  }
 });
 });
 $(function(){
