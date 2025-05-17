@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 #breaker{
-    height: 50vh;
+    height: 100vh;
     width: 200%;
     background-color: #c70039;
     opacity: 1;
@@ -27,7 +27,7 @@
     100%{ transform : translateX(100%) }
 }
 #breaker-two{
-    height: 50vh;
+    height: 100vh;
     width: 200%;
     background-color: #080808;
     opacity: 1;
