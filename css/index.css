@@ -1196,7 +1196,7 @@ form button:hover {
   color: whitesmoke;
   padding: 30px;
 }
-.contect-info-content-line {
+.contact-info-content-line {
   height: auto;
   padding: 10px;
   position: relative;
@@ -1789,7 +1789,7 @@ For devices with smaller width like mobile phone
     color: whitesmoke;
     padding: 20px;
   }
-  .contect-info-content-line {
+  .contact-info-content-line {
     height: auto;
     padding: 10px;
     position: relative;
@@ -2268,7 +2268,7 @@ for tabs and large phones
     color: whitesmoke;
     padding: 20px;
   }
-  .contect-info-content-line {
+  .contact-info-content-line {
     height: auto;
     padding: 10px;
     position: relative;
