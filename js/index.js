@@ -14,7 +14,6 @@ $(function(){
 $('.colors a').on("click",function(e) {
   e.preventDefault();
   var attr = $(this).attr("title");
-  console.log(attr);
   var colorLink = $("#theme-color");
   if(colorLink.length){
     colorLink.attr('href', 'css/' + attr + '.css');
